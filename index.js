@@ -7,12 +7,24 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'What is the title of your project?'
+        message: 'What is the title of your project?',
+        validate: function (answer) {
+            if (answer.length < 1) {
+                return console.log("Please input a valid project title.");
+            }
+            return true;
+        }
     },
     {
         type: 'input',
         name: 'description',
-        message: 'What is your project about?'
+        message: 'What is your project about?',
+        validate: function (answer) {
+            if (answer.length < 1) {
+                return console.log("Please input a valid project description.");
+            }
+            return true;
+        }
     },
     {
         type: 'input',
@@ -32,9 +44,17 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'github',
-        message: 'Who else contributed to this project?',
+        message: "What is your GitHub username?",
+        name: 'username',
+        default: 'connietran-dev',
+        validate: function (answer) {
+            if (answer.length < 1) {
+                return console.log("A valid GitHub username is required.");
+            }
+            return true;
+        }
     },
+
     {
         type: 'input',
         name: 'email',
@@ -54,7 +74,16 @@ const questions = [
 ]
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) { }
+function writeToFile(filename, data) {
+    fs.writeFileSync(fileName, data, err => {
+        if (err) {
+            return console.log(err);
+        }
+        console.log("Your README.md file has been generated sucessfully.")
+    });
+}
+
+
 
 // TODO: Create a function to initialize app
 function init() { }
