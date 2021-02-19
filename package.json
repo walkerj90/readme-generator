@@ -1,0 +1,27 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "A readme generator that quickly and easily creates a file by command line application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Justin Walker",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^6.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walkerj90/readme-generator.git"
+  },
+  "keywords": [
+    "readme",
+    "generator",
+    "bootcamp"
+  ],
+  "bugs": {
+    "url": "https://github.com/walkerj90/readme-generator/issues"
+  },
+  "homepage": "https://github.com/walkerj90/readme-generator#readme"
+}
