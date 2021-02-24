@@ -1,7 +1,7 @@
 
     
     # asd
-    ![License](https://img.shields.io/badge/license-MIT-License-blue.svg)
+    ![License](https://img.shields.io/badge/license-MIT-blue.svg)
     
     ## Project Description
     asd
@@ -16,13 +16,13 @@
     [Contact](#Questions)
     
     ## Installation
-    asd
+    
     
     ## Usage 
     
     
     ## Licensing (#Licensing)
-    MIT License
+    MIT
     
     ## Contributing
     

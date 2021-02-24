@@ -34,12 +34,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'What type of license does this fall under?',
-        choices: [
-            'MIT License',
-            'Apache License 2.0',
-            'GNU GPLv3 License',
-            'Other',
-        ],
+        choices: ['MIT', 'Apache', 'GPL', 'Other'],
     },
     {
         type: 'input',
