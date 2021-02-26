@@ -6,7 +6,7 @@ This application utilizes various command line inputs to create a README.md file
 The user will be asked about the projects title, description, usage information, installation, License with badge included, test instructions if applicable, contributions as well as a working table of contents. 
 
 * Video
-* https://youtu.be/ZFC6GAc2uSs
+https://youtu.be/ZFC6GAc2uSs
 ![image](https://user-images.githubusercontent.com/72112742/109274728-adebac00-77c8-11eb-8251-05433c55e0f0.png)
 
 
