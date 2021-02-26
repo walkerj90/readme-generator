@@ -1,17 +1,35 @@
-# readme-generator
- ![License](https://img.shields.io/badge/license-MIT-blue.svg)
+# Readme-Generator
+![License](https://img.shields.io/badge/license-MIT-blue.svg)  
+
+This application utilizes various command line inputs to create a README.md file to be used when creating a new project. The created README.md file is genereated when the user inputs from the terminal using Inquirer.
+
+The user will be asked about the projects title, description, usage information, installation, License with badge included, test instructions if applicable, contributions as well as a working table of contents. 
+
+# Installation
+Simply run the terminal of your choice and input into the terminal;
+
+    * npm install
+
+# Usage
+    * Clone Repository
+    * Open in terminal of choice
+    * Install necessary dependencies with npm install
+    * Run the application by typing; node index.js  
+
+# Languages and Technologies Used
+    * Javascript
+    * Node
+    * Inquirer
 
 ## User Story
 
-```md
 AS A developer
 I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
-```
+
 
 ## Acceptance Criteria
 
-```md
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for information about my application repository
 THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
