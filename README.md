@@ -6,8 +6,7 @@ This application utilizes various command line inputs to create a README.md file
 The user will be asked about the projects title, description, usage information, installation, License with badge included, test instructions if applicable, contributions as well as a working table of contents. 
 
 * Video
-[![Readme Generator](https://user-images.githubusercontent.com/72112742/109274728-adebac00-77c8-11eb-8251-05433c55e0f0.png)]
-(https://youtu.be/ZFC6GAc2uSs)
+<iframe width="885" height="498" src="https://www.youtube.com/embed/ZFC6GAc2uSs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Installation
 Simply run the terminal of your choice and input into the terminal;
